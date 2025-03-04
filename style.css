@@ -274,6 +274,7 @@ label{
     color: white;
     background-color: green;
     border: none;
+    cursor: pointer;
 }
 .close{
     position: absolute;
