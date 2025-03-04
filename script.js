@@ -92,11 +92,14 @@ productcolors.forEach((colors, index) => {
 const open=document.querySelector(".productbuy");
 const payment=document.querySelector(".payment");
 const close =document.querySelector(".close");
+const submit=document.querySelector(".submit");
 open.addEventListener("click",()=>{
-    console.log('hihew');
     payment.style.display="flex";
 })
 close.addEventListener("click",()=>{
+    payment.style.display="none"
+})
+submit.addEventListener("click",()=>{
     payment.style.display="none"
 })
 
